@@ -1,0 +1,891 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: Harish Kumar mandal"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 25,
+        "name": "Borrowing calculator Test Scenario",
+        "description": "",
+        "id": "borrowing-calculator-feature;borrowing-calculator-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10665447900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is already on borrowing calculator Page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_already_on_borrowing_calculator_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9348200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "title of borrowing calculator Page is ANZ Logo",
+            "match": {
+              "location": "LoginStepDefinition.title_of_borrowing_calculator_page_is_anz_logo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 177872200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click Application type as Single",
+            "match": {
+              "location": "LoginStepDefinition.user_click_application_type_as_single()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 146731000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user select number of dependants as zero",
+            "match": {
+              "location": "LoginStepDefinition.user_select_number_of_dependants_as_zero()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 209213900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on property you would like to buy as home to live in",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_property_you_would_like_to_buy_as_home_to_live_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 547747200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter Your income before tax \"80000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "80000",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_your_income_before_tax_something(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 521208400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enter Your other income  \"10000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10000",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_your_other_income_something(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 369843300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enter Living expenses  \"500\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_living_expenses_something(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 363549900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter current home loan repayments  \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 42
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_current_home_loan_repayments_something(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 507654700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enter Other loan repayments \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_other_loan_repayments_something(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 334583000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enter Other commitments \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_other_commitments_something(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 506468400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enter Total credit card limits \"10000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10000",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_total_credit_card_limits_something(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2344569600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click on work out how much i could borrow button",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_work_out_how_much_i_could_borrow_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2090736900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "fetch the the estimate amount you could borrow",
+            "match": {
+              "location": "LoginStepDefinition.fetch_the_the_estimate_amount_you_could_borrow()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 835792500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@tag"
+          },
+          {
+            "line": 5,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 48,
+        "name": "Borrowing calculator Test Scenario",
+        "description": "",
+        "id": "borrowing-calculator-feature;borrowing-calculator-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9119032100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user is already on borrowing calculator Page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_already_on_borrowing_calculator_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9265400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "title of borrowing calculator Page is ANZ Logo",
+            "match": {
+              "location": "LoginStepDefinition.title_of_borrowing_calculator_page_is_anz_logo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 233627100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user click Application type as Single",
+            "match": {
+              "location": "LoginStepDefinition.user_click_application_type_as_single()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 258696000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user select number of dependants as zero",
+            "match": {
+              "location": "LoginStepDefinition.user_select_number_of_dependants_as_zero()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 217349400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user click on property you would like to buy as home to live in",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_property_you_would_like_to_buy_as_home_to_live_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 457018800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user enter Your income before tax \"80000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "80000",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_your_income_before_tax_something(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 341067600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user enter Your other income  \"10000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10000",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_your_other_income_something(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 366202700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user enter Living expenses  \"500\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_living_expenses_something(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 239248300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user enter current home loan repayments  \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 42
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_current_home_loan_repayments_something(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 273429000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user enter Other loan repayments \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_other_loan_repayments_something(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 370049100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user enter Other commitments \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_other_commitments_something(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 290562500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user enter Total credit card limits \"10000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10000",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_total_credit_card_limits_something(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2321864600,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user click on work out how much i could borrow button",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_work_out_how_much_i_could_borrow_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2089526200,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "fetch the the estimate amount you could borrow",
+            "match": {
+              "location": "LoginStepDefinition.fetch_the_the_estimate_amount_you_could_borrow()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3246468800,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user click the start over button",
+            "match": {
+              "location": "LoginStepDefinition.user_click_the_start_over_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 780399000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@tag"
+          },
+          {
+            "line": 27,
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 74,
+        "name": "Borrowing calculator Test Scenario",
+        "description": "",
+        "id": "borrowing-calculator-feature;borrowing-calculator-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8515190700,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user is already on borrowing calculator Page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_already_on_borrowing_calculator_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7362500,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "title of borrowing calculator Page is ANZ Logo",
+            "match": {
+              "location": "LoginStepDefinition.title_of_borrowing_calculator_page_is_anz_logo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134075300,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user click Application type as Single",
+            "match": {
+              "location": "LoginStepDefinition.user_click_application_type_as_single()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 121451100,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user select number of dependants as zero",
+            "match": {
+              "location": "LoginStepDefinition.user_select_number_of_dependants_as_zero()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 204495200,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user click on property you would like to buy as home to live in",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_property_you_would_like_to_buy_as_home_to_live_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 396818100,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user enter Your income before tax \"80000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "80000",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_your_income_before_tax_something(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 381342400,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user enter Your other income  \"10000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10000",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_your_other_income_something(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 333723100,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user enter Living expenses  \"500\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_living_expenses_something(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 290310800,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user enter current home loan repayments  \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 42
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_current_home_loan_repayments_something(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 232061200,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user enter Other loan repayments \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_other_loan_repayments_something(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 285139900,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user enter Other commitments \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_other_commitments_something(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 312435300,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user enter Total credit card limits \"10000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10000",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_total_credit_card_limits_something(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2298367300,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user click on work out how much i could borrow button",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_work_out_how_much_i_could_borrow_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2090901900,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "fetch the the estimate amount you could borrow",
+            "match": {
+              "location": "LoginStepDefinition.fetch_the_the_estimate_amount_you_could_borrow()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3209555400,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user click the start over button",
+            "match": {
+              "location": "LoginStepDefinition.user_click_the_start_over_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 121423000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user entering  the value only for Living expenses as \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 54
+                }
+              ],
+              "location": "LoginStepDefinition.user_entering_the_value_only_for_living_expenses_as_something(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2225312000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user click on work out how much i could borrow button",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_work_out_how_much_i_could_borrow_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43716100,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "user validate the actual error message withh expected as \"Based on the details you\u0027ve entered, we\u0027re unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 035 500.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Based on the details you\u0027ve entered, we\u0027re unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 035 500.",
+                  "offset": 58
+                }
+              ],
+              "location": "LoginStepDefinition.user_validate_the_actual_error_message_withh_expected_as_something(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 789256600,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@tag"
+          },
+          {
+            "line": 50,
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": "Borrowing calculator feature",
+    "description": "",
+    "id": "borrowing-calculator-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/OneDrive/Desktop/Cucumber/Cucumber-TestNG-master/src/main/java/Features/AnZUICalculator.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@tag"
+      }
+    ]
+  }
+]
